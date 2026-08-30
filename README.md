@@ -1,1 +1,1 @@
-# AnotherExperimentArea
+# C++ String Utility Library
