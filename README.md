@@ -15,6 +15,10 @@ st1.SetValue("Jane Carter Smith");
 cout << st1.Value(); 
 ```
 
+### Use of original `std::string` methods
+In order to use the original `std::string` methods, aside from the methods this library offers, you can still access the `std::string` member functions by getting the value of the `RichString` object and then use the dot operator again to view its methods as of the image.
+[Image showing how you can access original string object methods whilst using the `RichString`](show_string_methods.png) 
+
 ## Static Usage 
 You can use the static methods in this library to process data streaming from a source like a file or a database.
 ```cpp
