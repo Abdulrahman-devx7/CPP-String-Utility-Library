@@ -88,3 +88,25 @@ In addition to the main 4 above, this part involves some useful output functions
 	- `CountWords()`
 	- `ModifyFirstLetters()`
 - An important decision has been taken in favor of **performance and memory efficiency.** A cleaner approach for this library would've involved the use of `Split()` across all the methods mentioned above. Regardless of what these methods do in UI or manipulation, memory allocation is always a **costly operation.** So in a trade-off of clean code for memory efficiency, I decided to keep this **repeated** logic in several methods to avoid memory allocation. The logic remains identical across some methods, but the functionalities differ for sure. So trying to make a something like the methods in the **private** scope of the class might overcomplicate the situation because each function has a different action to do. Thus, trading memory efficiency for repeating myself a little bit was the optimal solution.
+
+## 🔗 Installation
+In order to be able to use this library in you project, you just need to drop `RichString.h` into your directory. In addition, you'll need to include this header file by adding `#include "RichString.h"` to your files.
+
+### Cloning the repository locally
+#### Standard Clone 
+Navigate to the directory where you want the project to live in your terminal, then run:
+```bash
+git clone https://github.com/Abdulrahman-devx7/CPP-String-Utility-Library.git
+```
+This automatically creates a new folder matching the remote repository's name.
+
+#### Clone into a specific folder
+To download the repository into a directory with a custom name, append the desired folder name to the end of the command:
+```bash
+git clone https://github.com/Abdulrahman-devx7/CPP-String-Utility-Library.git custom_folder_name
+```
+
+## 📎 Contribution Guidelines
+- This project is considered an open-source project and is fully open for any contributions. You can apply your changes, whether it's more features, better performance, etc., and then send a detailed pull request with the changes!
+
+- We prefer that you create a dedicated branch for your updates and use atomic commits to keep the version history clear and trackable.
