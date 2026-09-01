@@ -11,7 +11,7 @@ RichString example2("Library"); // A RichString object with the value "library"
 You also use the `SetValue()` and `Value()` methods to set the object's value to something and grab the string's value respectively.
 ```cpp
 RichString st1("Employee Name");
-RichString st1.SetValue("Jane Carter Smith");
+st1.SetValue("Jane Carter Smith");
 cout << st1.Value(); 
 ```
 
@@ -83,9 +83,6 @@ In addition to the main 4 above, this part involves some useful output functions
 - The library features a function in the `private` scope of the class: `CountByCondition`, which serves as a **single source of truth (SSOT)** for the `Count` methods. It receives a **function pointer** as a parameter, which is given in the `Count` methods, to determine which function from the `<cctype>` library is going to applied for counting. E.g., `isupper()`, `isalnum()`, `isdigit()`, etc.
 - The same pattern is seen with `StartWordsWith` methods, which use the `ModifyFirstLetters` method. This method serves similarly to `CountByCondition` , Meaning it's an SSOT that takes a function pointer to determine the modification type. It also receives a delimiter to characterize.
 - An efficient algorithm that involves a **sliding window with two pointers** is used across several methods. It's efficiency lies in the fact that it doesn't involve heavy memory allocation with each use. Memory allocation is merely needed in `Split()` and other transformation methods to deliver the data as tokens for usage. There are lots of methods that involve this algorithm:
-	- `Split()`
-	- `ReplaceWord()`
-	- `ReverseWords()`
 	- `PrintEachWordInText()`
 	- `PrintFirstLetters()`
 	- `CountWords()`
