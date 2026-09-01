@@ -27,6 +27,19 @@ cout << "Static words count: " << RichString::CountWords("High performance C++ s
 cout << "Start Words Uppercase: " << RichString::StartWordsWithUppercase("william johnson smith", " ") << endl;
 // Output: William Johnson Smith
 ```
+### The example.cpp File
+This is a comprehensive implementation file that utilizes all the library's methods. You can clone the repository locally via `git clone` (click [here](#installation) for details). Compile and run the .exe file and compare the example code with the console output.
+
+To make things easier, here are images showing you the output:
+
+<details>
+<summary> Click to view the console output examples! </summary>
+
+[First Part](outputShowcase1.png)
+
+[Second Part](outputShowcase2.png)
+
+</details>
 
 ## 💡 Core Features
 The library features a variety of methods to serve various purposes:
