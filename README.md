@@ -28,7 +28,7 @@ cout << "Start Words Uppercase: " << RichString::StartWordsWithUppercase("willia
 // Output: William Johnson Smith
 ```
 ### The example.cpp File
-This is a comprehensive implementation file that utilizes all the library's methods. You can clone the repository locally via `git clone` (click [here](#installation) for details). Compile and run the .exe file and compare the example code with the console output.
+This is a comprehensive implementation file that utilizes all the library's methods. You can clone the repository locally via `git clone` (click [here](https://github.com/Abdulrahman-devx7/CPP-String-Utility-Library#-installation) for details). Compile and run the .exe file and compare the example code with the console output.
 
 To make things easier, here are images showing you the output:
 
