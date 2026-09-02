@@ -15,6 +15,10 @@ st1.SetValue("Jane Carter Smith");
 cout << st1.Value(); 
 ```
 
+### Use of original `std::string` methods
+In order to use the original `std::string` methods, aside from the methods this library offers, you can still access the `std::string` member functions by getting the value of the `RichString` object and then use the dot operator again to view its methods as of the image.
+[Image showing how you can access original string object methods whilst using the `RichString`](show_string_methods.png) 
+
 ## Static Usage 
 You can use the static methods in this library to process data streaming from a source like a file or a database.
 ```cpp
@@ -23,6 +27,19 @@ cout << "Static words count: " << RichString::CountWords("High performance C++ s
 cout << "Start Words Uppercase: " << RichString::StartWordsWithUppercase("william johnson smith", " ") << endl;
 // Output: William Johnson Smith
 ```
+### The example.cpp File
+This is a comprehensive implementation file that utilizes all the library's methods. You can clone the repository locally via `git clone` (click [here](#installation) for details). Compile and run the .exe file and compare the example code with the console output.
+
+To make things easier, here are images showing you the output:
+
+<details>
+<summary> Click to view the console output examples! </summary>
+
+[First Part](outputShowcase1.png)
+
+[Second Part](outputShowcase2.png)
+
+</details>
 
 ## 💡 Core Features
 The library features a variety of methods to serve various purposes:
