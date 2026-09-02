@@ -90,7 +90,7 @@ Identifies whitespace structural elements and grammatical symbols.
 * `CountSpaces()`
 * `CountPunctuation()`
 
-### Output
+### 📄 **Output**
 In addition to the main 4 above, this part involves some useful output functions that can do different things.
 
 - `PrintFirstLetters()` : Given a certain delimiter to target words, this method picks words and prints the first letters of each word. It includes an optional boolean parameter to print the letters separated by spaces or each on a new line.
