@@ -33,7 +33,7 @@ This is a comprehensive implementation file that utilizes all the library's meth
 To make things easier, here are images showing you the output:
 
 <details>
-<summary> Click to view the console output examples! </summary>
+<summary><h3> Click to view the console output examples! </h3></summary>
 
 [First Part](outputShowcase1.png)
 
